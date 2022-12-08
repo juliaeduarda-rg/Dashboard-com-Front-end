@@ -24,9 +24,9 @@
     --border-radius-3:1.2rem;
 
     --card-padding: 1.8rem;
-    --padding:1.2rem;
+    --padding-1:1.2rem;
 
-    --box-shadow:0.2rem 0.3rem var(--color-light);
+    --box-shadow:0 2rem 3rem var(--color-light);
 }
 
 *{
@@ -45,7 +45,7 @@ html{
 }
 
 body{
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     font-family: poppings, sans-serif;
     font-size: 0.88rem;
@@ -131,4 +131,9 @@ b{
 
 .warning{
     color: var(--color-warning);
+}
+
+aside{
+    height: 100vh;
+    background: gray;
 }
